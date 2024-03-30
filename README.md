@@ -75,4 +75,12 @@ Sample shell script
 
 
 - BPMNRec --BPMNRec.ipynb
-  - the 
+  - Firstly, set up bpstruct and download the MaxStructEvaluation dataset. Use bpstruct to convert non-structured BPMN models to structured models, obtaining the structured model's JSON files. In the BPMNRec.ipynb file, within the main function, replace Unstructured_transform.json with the JSON file obtained from the previous step.
+  - Then, pass the BPMN models you want to compare to achieve distance calculation. Secondly, configure BPMNDiffviz to handle the computation for other recommendation algorithms.
+
+
+
+
+
+
+
